@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Swiss911';
+    src: url('/fonts/Swiss\ 911\ Compressed\ Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Swiss911', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+  
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+  
+.logo {
+    width: 180px;
+    height: auto;
+}
+  
+.title h1 {
+    font-weight: 100;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 65vh;           
+    text-align: center;
+}
+
+.timer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+  
+.timer div {
+    display: flex;
+    flex-direction: column;
+}
+  
+.timer span {
+    font-weight: bold;
+    font-size: 3rem;
+    width: 60px;
+  text-align: center;
+}
