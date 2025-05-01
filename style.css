@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Swiss911';
-    src: url('fonts/Swiss\ 911\ Compressed\ Regular.otf') format('truetype');
+    src: url('/fonts/Swiss\ 911\ Compressed\ Regular.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -56,4 +56,15 @@ header {
     font-size: 3rem;
     width: 60px;
   text-align: center;
+}
+
+@media screen and (max-width: 430px) {
+    .title h1 {
+        height: 57vh;
+    }
+    .timer {
+        gap: 0;
+        height: 10vh;
+        margin-top: 12vh;
+    }
 }
