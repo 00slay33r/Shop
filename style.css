@@ -23,7 +23,7 @@ header {
     height: auto;
 }
   
-.title h1 {
+h1 {
     font-weight: 600;
     font-size: 4vh;
     display: flex;
