@@ -1,14 +1,10 @@
-@font-face {
-    font-family: 'Swiss911';
-    src: url('fonts/Swiss 911 Compressed Regular.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    font-family: 'Swiss911', Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding: 0;
     margin: 0;
+    text-transform: uppercase;
 }
 
 body {
