@@ -10,7 +10,6 @@
 body {
     background-color: black;
     color: white;
-    font-family: Arial, sans-serif;
 }
   
 header {
@@ -23,7 +22,7 @@ header {
     height: auto;
 }
   
-h1 {
+.title h1 {
     font-weight: 600;
     font-size: 4vh;
     display: flex;
