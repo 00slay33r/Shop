@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 body {
@@ -37,7 +38,6 @@ header {
     gap: 20px;
     justify-content: center;
     font-size: 3rem;
-    font-weight: bold;
     letter-spacing: 2px;
 }
   
