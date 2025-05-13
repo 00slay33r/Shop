@@ -24,8 +24,7 @@ header {
 }
   
 .title h1 {
-    font-weight: 600;
-    font-size: 4vh;
+    font-size: 3vh;
     display: flex;
     justify-content: center; 
     align-items: center;     
