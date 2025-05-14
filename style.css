@@ -60,5 +60,6 @@ header {
         gap: 0;
         height: 10vh;
         margin-top: 12vh;
+        letter-spacing: 5px;
     }
 }
