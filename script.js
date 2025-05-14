@@ -14,7 +14,6 @@ function updateCountdown() {
   const hours = Math.floor(diff / 1000 / 60 / 60) % 24;
   const daysTotal = Math.floor(diff / 1000 / 60 / 60 / 24);
 
-  const months = Math.floor(daysTotal / 30); // approximation
   const days = daysTotal % 30;
   
   document.getElementById("days").textContent = String(days).padStart(2, "0");
