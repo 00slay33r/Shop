@@ -47,7 +47,7 @@ header {
   
 .timer span {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 3rem;
     width: 60px;
     text-align: center;
 }
@@ -58,6 +58,7 @@ header {
     }
     .timer {
         gap: 0;
+        font-size: 20px;
         height: 10vh;
         margin-top: 12vh;
         letter-spacing: 5px;
