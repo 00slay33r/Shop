@@ -63,4 +63,7 @@ header {
         margin-top: 12vh;
         letter-spacing: 5px;
     }
+    .timer span {
+            font-size: 20px;
+    }
 }
