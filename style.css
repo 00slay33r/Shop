@@ -33,12 +33,21 @@ header {
 }
 
 .timer {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  gap: 10px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: black; /* facultatif : pour contraster avec le fond */
+  padding: 10px 15px;
+  border-radius: 8px;
 }
 
 .timer div {
@@ -50,11 +59,10 @@ header {
 }
 
 .timer span {
-    font-weight: bold;
-    font-size: 3rem;
-    width: 60px;
-    text-align: center;
+  min-width: 40px; /* force chaque nombre à occuper de l'espace */
+  text-align: center;
 }
+
 
 .timer div::after {
     content: ":";
@@ -78,10 +86,9 @@ header {
     }
 
     .timer {
-        gap: 5px;
-        height: auto;
-        margin-top: 12vh;
-        letter-spacing: 1px;
+        font-size: 1.8rem;
+        gap: 6px;
+        padding: 8px 12px;
     }
 
     .timer span {
